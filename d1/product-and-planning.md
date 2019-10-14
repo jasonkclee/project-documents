@@ -49,10 +49,12 @@
 
 #### Q5: What are the user stories that make up the MVP?
 
- * At least 5 user stories concerning the main features of the application - note that this can broken down further
- * You must follow proper user story format (as taught in lecture) ```As a <user of the app>, I want to <do something in the app> in order to <accomplish some goal>```
- * If you have a partner, these must be reviewed and accepted by them
- * The user stories should be written in Github and each one must have clear acceptance criteria
+Story: As a non-profit, I can send duplicate gratitude messages to other volunteers, so that I don't have to re-enter information.
+
+Acceptance Criteria: Given that I have accessed the web form for sending gratitude messages and I have filled out these three items in the form: Sender, Video, Action Buttons
+When I have to specify the recipients of the message, I am able to input multiple recipients at once without refilling the form
+And I submit the form
+Then the system will send out duplicate gratitude messages to each of those recipients
 
 ----
 
@@ -92,10 +94,19 @@ Describe meetings (and other events) you are planning to have:
  * Other events could be coding sessions, code reviews, quick weekly sync meeting online, etc.
 
 #### Partner Meetings
-You must have at least 2 meetings with your project partner - an initial planning meeting and a document review meeting. Describe the meetings here:
-* When and where?
-* What did you discuss during the meeting (**note you must have meeting minutes**)?
-* What were the outcomes of each meeting?
+
+##### Initial planning meeting 
+First meeting happened at Gerstein on October 8th from 1pm-2pm. 
+During this meeting, we discussed the background, purpose, and current implementation of the Gratitude Project. Detailed meeting minutes are available in the file meetingminutesoct8.pdf.
+Outcomes of the meeting:
+* we got a better understanding of the current status of the project (ie. background and motivations for the project, tech stack, saw a demo of how the app worked)
+* received access to the project's slack channel for communication
+* received access to project github code base and list of issues we could potentially be working on
+* was presented with the choice of one of two different streams of work (working on existing stories/issues or create an entirely new feature). After further discussion with our group members, we decided to work on the first stream of stories/issues. 
+* can attend weekly meetings held by the Gratitude team if needed 
+
+##### Document review meeting
+...
 
 
 #### Artifacts
